@@ -17,6 +17,8 @@ $(document).ready(function()
     my_skills_data();
     books_read_data();
     bind_thumbtack();
+
+    $("#left-panel .fas").trigger("click");
 });
 
 function bind_thumbtack()
