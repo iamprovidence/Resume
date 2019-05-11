@@ -218,3 +218,45 @@ body
         left: 0%;
     }
 }
+
+/*BOOKS*/
+#books-list div 
+{
+    margin-bottom: 15px;
+    padding: 4px 12px;
+}
+#books-list div:hover
+{
+    opacity: 0.8;
+}
+#books-list p
+{
+    margin: 16px 0;
+}
+.pink 
+{
+    background-color: #ffddfa;
+    border-left: 6px solid #f436d1;
+}
+
+.green
+{
+    background-color: #ddffdd;
+    border-left: 6px solid #4CAF50;
+}
+
+.blue 
+{
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+}
+.yellow 
+{
+    background-color: #ffffcc;
+    border-left: 6px solid #ffeb3b;
+}
+.red
+{
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
