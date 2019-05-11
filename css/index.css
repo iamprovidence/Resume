@@ -1,0 +1,81 @@
+body
+{
+    background: #eee !important;
+}
+
+#wrapper
+{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#left-panel
+{
+    background: white;
+    border-right: 2px solid gray;
+    border-radius: 10px 0px 0px 10px;
+    padding: 20px;
+}
+
+#right-panel
+{
+    background: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+/*MY INTERESTS*/
+.my-interests ul
+{
+	float:left;
+	text-align:center;
+    list-style-type: none;
+
+    padding-left: 0;
+	width:100%;
+    margin:10px 0 0;
+}
+.my-interests ul li{
+	width:20%;
+	float:left;
+	position:relative;
+	vertical-align:middle;
+    text-align:center;
+    
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.my-interests .fa
+{
+	display:inline-block;
+	font-size:22px;
+	margin:0 0 10px;
+	width:60px;
+	line-height:58px;
+	border:1px solid #dcdcdc;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+    border-radius:50%;
+    
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.my-interests ul li span
+{
+	text-transform:uppercase;
+	display:block;
+	font-size:14px;
+}
+.my-interests ul li:hover
+{
+	color:#7cbec8;
+	cursor:pointer;
+}
+.my-interests ul li:hover .fa
+{
+	border-color:#7cbec8;
+}
