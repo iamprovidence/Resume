@@ -16,7 +16,36 @@ $(document).ready(function()
 {
     my_skills_data();
     books_read_data();
+    bind_thumbtack();
 });
+
+function bind_thumbtack()
+{
+    // make panel fixed
+    $("#left-panel .fas").click(function()
+    {
+        $(this).toggleClass("active");
+        
+        var fixed_block = $("#fixed-block");
+
+        // fix
+        if ($(this).hasClass("active"))
+        {
+            fixed_block.css({ position: 'fixed' });
+            fixed_block.width($("#left-panel").width());
+
+            $(window).resize(function() 
+            {
+                fixed_block.width($("#left-panel").width());
+            });
+        }
+        else // unfix
+        {
+            fixed_block.removeAttr("style")
+            $(window).unbind("resize");
+        }
+    });
+}
 
 // SKILLS
 function my_skills_data()
